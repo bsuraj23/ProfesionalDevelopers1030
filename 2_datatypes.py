@@ -1,16 +1,3 @@
-# Different Data Types in Python
-
-#Immutable: int, float, str, tuple, frozenset, etc.
-
-#Mutable: list, dict, set, bytearray, etc.
-#none is also a Datatype 
-array = [1, 2, 3, 4, 5]         
-print(type(array))
-matrix = [[1, 2, 3], [4, 5, 6]]  
-print(type(matrix))
-vector = (1, 2, 3)          
-print(type(vector))         
-data_set = {1, 2, 3, 4}                 
 
 print(type(data_set))
 dictionary = {"name": "Alice", "age": 30}           
@@ -20,14 +7,12 @@ print("")
 x = None
 print(type(x))
 print(x)
-
-# A key difference between bytes and strings 
-# is that bytes are immutable and do
-# not support most string methods directly. 
-# For example, you cannot concatenate a bytes
-# object with a string without explicit conversion
-b = b"Hello"
-print(type(b))
+dsfeifgegrer
+we
+rwe
+r
+ew
+r
 
 
 print(b)
