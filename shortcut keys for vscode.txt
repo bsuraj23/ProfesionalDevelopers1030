@@ -1,0 +1,53 @@
+Day-05/11/2025
+
+Shortcut keys for VS Code:
+
+ctrl+X       - cut selected text
+
+ctrl+C       - copy selected text
+
+ctrl+V       - paste copied text
+
+ctrl+Z       - undo actions
+
+ctrl+Y       - Redo actions
+
+ctrl+A       - select all text
+
+ctrl+s       - save file
+
+ctrl+P       - Quickly open a file
+
+ctrl+W       - close current tab
+
+ctrl+tab     - Move between open tabs 
+
+ctrl+shift+E - open file explorer
+
+ctrl+shift+F - search across files
+
+ctrl+shift+G - open Git panel
+
+ctrl+shift+D - open debug view
+
+ctrl+shift+X - Show extensions panel
+
+        F5   - Start Debugging
+
+shift+F5     - stop debugging
+
+ctrl+F5      - Run without Debugging
+
+ctrl+shift+' - new terminal
+
+ctrl+Shift+5 - split terminal
+
+ctrl+G       - Go to a specific line number
+
+ctrl+ -      - go back to previous location
+
+
+
+
+
+
