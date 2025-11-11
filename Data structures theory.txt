@@ -1,0 +1,249 @@
+***Stack:
+-----------------
+
+stack is a linear data structure that follows the LIFO (Last In, First Out) principle 
+
+The last element inserted is the first one to be removed.
+
+
+
+we can only add or remove elements from the top.
+
+The element  placed last will be the first one you take off.
+
+#Basic Operations
+
+A stack typically supports these core operations:
+
+push(x)	         Add (insert) an element x on the top of the stack
+pop()	         Remove the element from the top of the stack
+peek() / top()	 Return the top element without removing it
+isEmpty()	 Check if the stack is empty
+isFull()       	 Check if the stack is full (for fixed-size stacks)
+
+
+
+Implementation
+
+A stack can be implemented using:
+
+Array (fixed size)
+
+Linked List (dynamic size)
+
+Built-in Libraries
+
+Example Code:
+
+-----------------
+stack = []
+
+# Push elements
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+# Pop element
+print(stack.pop())  # 30
+
+# Peek top
+print(stack[-1])    # 20
+
+# Check if empty
+print(len(stack) == 0)  # False
+
+
+
+--------------------------------------------------------------------------------------------------------QUEUE:
+-----------
+
+A queue is a linear data structure that follows the FIFO (First In, First Out) principle —
+
+The element inserted first is the one removed first.
+
+Example:
+Queue at a ticket counter:
+The first person in line gets served first.
+
+Basic Operations
+
+
+enqueue(x)	Insert element x at the rear (end) of the queue
+dequeue()	Remove element from the front of the queue
+front() /peek()	Get the front element without removing it
+isEmpty()	Check if the queue is empty
+isFull()	Check if the queue is full (for fixed-size queues)
+
+Types of Queues
+
+Simple Queue – FIFO order
+
+Circular Queue – Last position connects back to first
+
+Priority Queue – Elements are dequeued based on priority
+
+Deque (Double-Ended Queue) – Insertion and deletion at both ends
+
+
+Example code:
+
+
+queue = []  # empty queue
+
+# Enqueue (add elements)
+queue.append(10)
+queue.append(20)
+queue.append(30)
+
+print("Queue after enqueue:", queue)
+
+# Dequeue (remove elements)
+print("Dequeued element:", queue.pop(0))  # removes first element
+print("Queue after dequeue:", queue)
+
+# Peek (see front element)
+print("Front element:", queue[0])
+
+# Check if queue is empty
+if not queue:
+    print("Queue is empty")
+else:
+    print("Queue is not empty")
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Searching :
+
+Searching means finding the location of a given element in a data structure.
+
+1. Linear Search:
+
+Checks each element one by one.
+
+Time Complexity: O(n)
+
+Best Case: O(1) (if the element is first)
+
+Use: Unsorted data
+
+2. Binary Search:
+
+Works only on sorted arrays/lists.
+
+Divides the array into halves and compares the middle element.
+
+Time Complexity: O(log n)
+
+Use: Fast search in sorted data
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Sorting Techniques:
+
+Sorting means arranging data in a particular order (ascending/descending).
+
+1. Bubble Sort:
+
+Repeatedly swaps adjacent elements if out of order.
+
+Time: O(n²)
+
+
+2. Selection Sort:
+
+Selects the smallest element and places it at the beginning.
+
+Time: O(n²)
+
+
+3. Insertion Sort:
+
+Builds the sorted list one item at a time.
+
+Time: O(n²) (best case O(n))
+
+
+4. Merge Sort:
+
+Divides array into halves, sorts, and merges them.
+
+Time: O(n log n)
+
+
+5. Quick Sort:
+
+Uses a pivot to partition the array into smaller/larger parts.
+
+Time: O(n log n) average; O(n²) worst
+
+
+6. Heap Sort:
+
+Uses a heap data structure.
+
+Time: O(n log n)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Trees:
+
+A Tree is a hierarchical data structure consisting of nodes.
+
+
+Basic Terms:
+
+Root: Top node
+
+Parent/Child: Node relationships
+
+Leaf: Node with no children
+
+Depth/Height: Levels of the tree
+
+
+1. Binary Tree
+
+Each node has at most 2 children (left & right).
+
+
+Types:
+
+Full Binary Tree: Every node has 0 or 2 children
+
+Complete Binary Tree: All levels filled except possibly last
+
+Perfect Binary Tree: All internal nodes have 2 children and all leaves at same level
+
+
+2. Binary Search Tree (BST)
+
+Left subtree < root < right subtree
+
+Allows efficient search, insert, delete
+
+Time: O(log n) average, O(n) worst
+
+
+3. AVL Tree (Adelson-Velsky and Landis)
+
+Self-balancing BST
+
+For every node, height difference (Balance Factor) ≤ 1
+
+Rotations (LL, RR, LR, RL) used to maintain balance
+
+Time: O(log n) for all operations
+
+
+4. Other Trees
+
+Red-Black Tree: Balanced BST used in maps, sets
+
+B-Tree/B+ Tree: Used in databases and file systems
+
+Heap Tree: Complete binary tree used for priority queues
+
+
+
+
