@@ -10,7 +10,5 @@ GIT COMMANDS
 => git commit -m "<comment" (commit changes with a message)
 => git push
 
--------------------------------------------------------------------------------
 
-SHORTCUT KEYS FOR VS CODE
 
