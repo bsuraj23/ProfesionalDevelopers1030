@@ -1,0 +1,24 @@
+VS CODE SHORTCUT KEYS
+
+| Action                          | Windows/Linux      | 
+| ------------------------------  | ------------------ | 
+| Command Palette                 | `Ctrl + Shift + P` | 
+| Open new window                 | `Ctrl + Shift + N` | 
+| Close window                    | `Ctrl + Shift + W` | 
+| Open file                       | `Ctrl + O`         | 
+| Save file                       | `Ctrl + S`         | 
+| Save all                        | `Ctrl + K` → `S`   | 
+| Close file                      | `Ctrl + W`         | 
+| Reopen closed file              | `Ctrl + Shift + T` |         
+| Search across all files         | `Ctrl + Shift + F` |
+| Open Git (Source Control) panel | `Ctrl + Shift + G` |
+| Open Debug view                 | `Ctrl + Shift + D` |
+| Show Extensions panel           | `Ctrl + Shift + X` |
+| Start Debugging                 | `F5`               |
+| Stop Debugging                  | `Shift + F5`       |
+| Run without Debugging           | `Ctrl + F5`        |
+| Open a new terminal             | `Ctrl + Shift + '` |
+| Split terminal                  | `Ctrl + Shift + 5` |
+| Go to a specific line number    | `Ctrl + G`         |
+| Go ba                           |                    |
+|------------------------------------------------------|
