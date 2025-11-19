@@ -1,6 +1,0 @@
-python=("trisha swini")
-print(python.upper())
-print(python.lower())
-print(python.endswith("i"))
-print(python.startswith("t"))
-print(python.replace("t","i"))
