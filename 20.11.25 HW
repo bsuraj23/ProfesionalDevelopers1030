@@ -1,0 +1,47 @@
+1. __doc__
+The module’s docstring, or None if no documentation is provided.
+print(__doc__)
+Used by tools like help().
+
+2. __file__
+The path to the file from which the module was loaded.
+print(__file__)
+Useful for locating resources relative to the source file.
+May be absent in some environments (e.g., frozen apps, interactive shell).
+
+3. __name__
+The module’s name.
+If the file is run directly → "__main__"
+If imported → module name, e.g. "mymodule"
+print(__name__)  # "__main__" when run directly
+Used in the common pattern:
+if __name__ == "__main__":
+    main()
+
+4. __package__
+The module’s package name, or None/"" if it is a top-level script.
+It tells the import system how to resolve relative imports.
+Example:
+If your module is in mypkg.subpkg.module, then:
+print(__package__)  # 'mypkg.subpkg'
+
+5. __loader__
+The loader object that Python used to load the module.
+It usually is something like:
+<_frozen_importlib_external.SourceFileLoader object>
+This is part of Python’s import machinery and tells who loaded the module (file loader, zip loader, frozen module loader, etc.)
+
+6. __spec__
+A ModuleSpec object containing complete metadata about how the module was imported:
+name
+origin
+loader
+package
+submodule search locations
+etc.
+Example:
+print(__spec__)
+Output looks like:
+ModuleSpec(name='mypkg.module',
+           loader=..., 
+           origin='/path/to/module.py')
