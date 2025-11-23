@@ -1,0 +1,52 @@
+LIBRARY AND FRAMEWORK:
+1.Library:
+You call the library: When using a library, you import and call its functions or classes directly within your code to perform specific tasks. You maintain control over the overall program flow.
+Specific functionality: Libraries are typically designed to provide specific, well-defined functionalities. Examples include NumPy for numerical operations, Pandas for data analysis, or Requests for making HTTP requests.
+Integration: Libraries are easily integrated into existing projects as needed, without dictating the overall structure of your application.
+2.Framework:
+The framework calls your code: A framework provides a skeletal structure for building applications, dictating the overall architecture and flow. It defines the points where you, the developer, inject your custom code. The framework then calls your code when necessary.
+Inversion of Control (IoC): This is the defining characteristic. The framework takes control of the application's flow, and you build your application around its conventions and structure.
+Comprehensive structure: Frameworks often provide a more complete solution for a particular type of application, such as web development (e.g., Django, Flask) or GUI development (e.g., Kivy). They often include tools for routing, database interaction, templating, and more.
+
+MICROSERVICES:
+Microservices in Python refer to implementing the microservice architectural style using the Python programming language and its ecosystem. In this approach, a large application is broken down into smaller, independent, and loosely coupled services, each responsible for a specific business capability. These services can be developed, deployed, and scaled independently.
+Key characteristics of Python microservices:
+1.Independent Services: Each microservice is a self-contained unit focused on a single function, such as user authentication, order processing, or inventory management.
+2.Communication: Services communicate with each other over lightweight mechanisms, typically using RESTful APIs (HTTP) or message queues (like RabbitMQ or Kafka) for asynchronous communication.
+3.Technology Agnostic: While the core implementation is in Python, individual services can leverage different technologies or databases if needed, providing flexibility.
+4.Scalability: Services can be scaled independently based on their specific load requirements. For example, a frequently accessed authentication service can be scaled more aggressively than a less-used reporting service.
+
+
+
+OOPS CONCEPT IN PYTHON:
+1.Class:
+A blueprint or a template for creating objects. It defines common attributes (data) and methods (functions) that objects of that class will possess.
+2.Object:
+An instance of a class. Objects are concrete entities created from a class blueprint, each having its own set of attribute values.
+3.Encapsulation:
+The bundling of data (attributes) and methods (functions) that operate on the data into a single unit (the class).
+4.Inheritance:
+A mechanism that allows a new class (derived or child class) to inherit attributes and methods from an existing class (base or parent class).
+5.Polymorphism:
+The ability of an object to take on many forms or for a single interface to represent different underlying data types.
+6.Abstraction:
+The process of hiding complex implementation details and showing only the essential features of an object.
+
+CLOUD COMPUTING:
+Cloud computing is the delivery of on-demand computing resources like servers, storage, and software over the internet, allowing users to access them from anywhere without owning physical hardware. Instead of buying and managing their own data centers, businesses and individuals can access these resources from a cloud provider and typically pay only for what they use. Examples include services like Google Drive, Apple's iCloud, and software delivered via the web, such as Microsoft 365. 
+Key concepts:
+1.On-demand access: Computing resources are available when you need them, over the internet.
+Pay-as-you-go pricing: You are typically charged only for the services you consume, similar to a utility bill.
+2.Scalability: Businesses can easily scale their resources up or down as their needs change without having to buy new equipment. 
+Common cloud services:
+1.Software as a Service (SaaS): Delivers applications over the internet, like email or customer relationship management (CRM) software. Users access it through a web browser without needing to install or manage it locally. Examples include Google Workspace, Microsoft 365, and Salesforce.
+2.Infrastructure as a Service (IaaS): Provides fundamental computing resources, such as virtual machines and storage, over the internet. This gives users the most control, as they manage the operating system and applications themselves. Amazon Web Services (AWS) offers IaaS as a service.
+3.Platform as a Service (PaaS): Offers an environment for developing, running, and managing applications without the complexity of managing the underlying infrastructure. 
+
+OWASP:
+OWASP, the Open Web Application Security Project, is a non-profit foundation that works to improve software security. It is an open community that provides free, accessible resources like documentation, tools, and local chapters worldwide to help organizations create more secure software
+Key aspects of OWASP
+1.Mission: To make software more secure by providing a global, open community for education, tools, and collaboration.
+2.Resources: OWASP offers a wide range of free materials, including projects, tools (like OWASP ZAP), documentation, forums, and videos.
+3.OWASP Top 10: This is a widely respected and recognized project that lists the ten most critical security risks to web applications. Many auditors view failing to address the Top 10 as a compliance gap, making it a key best practice for organizations.
+4.Global Community: The foundation has hundreds of local chapters around the world, fostering a global network for sharing security knowledge.
