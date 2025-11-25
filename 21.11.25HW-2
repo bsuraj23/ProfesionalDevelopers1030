@@ -1,0 +1,79 @@
+1.what is java script
+JavaScript is a programming language used to make web pages interactive and dynamic.
+HTML builds the structure of a webpage.
+CSS styles the webpage.
+JavaScript makes the webpage come alive (buttons that respond, animations, forms that validate input, etc.).
+What JavaScript can do:
+  1.Show or hide content when you click a button
+  2.Validate form input (e.g., check if an email is valid)
+  3.Create animations and visual effects
+  4.Build web applications (like Google Maps, YouTube, or web games)
+  5.Communicate with servers to load data without refreshing the page (using APIs)
+
+
+2.what is frontend
+Frontend refers to the part of a website or application that users see and interact with.
+Frontend = everything you see on the screen when you open a website or app.
+Examples of frontend things:
+  1.Buttons
+  2.Text and images
+  3.Navigation menus
+  4.Colors, fonts, layout
+  5.Animations
+  6.Forms you fill out
+Technologies used in frontend:
+  1.HTML – structure of the webpage
+  2.CSS – styling and design
+  3.JavaScript – interactivity and logic
+  
+  
+  3. What is rest API Architecture 
+A REST API is like a set of rules that lets two programs talk to each other using the HTTP methods used by the web (GET, POST, PUT, DELETE, etc.).
+Example:
+When your frontend asks your backend for data (like user info), it often uses a REST API.
+Key Principles of REST Architecture:  
+1. Client–Server
+   The client (frontend) and server (backend) are separate.
+   They can evolve independently.
+2. Stateless
+   The server does not remember the client’s previous requests.
+   Every request must contain all needed information.
+3. Resource-Based
+   Everything is treated as a resource, identified by a URL
+4. Use of JSON/HTTP
+   REST usually uses:
+   JSON for data format
+   HTTP for communication
+5. Cacheable
+   Responses can be cached to improve speed.
+
+
+ 4.how do you manage traffic in web application
+ Managing traffic in a web application is about ensuring your site or app remains fast, stable, and available even when many users access it at once. 
+ This is a key part of scalability and performance optimization. Here’s a detailed breakdown:
+1. Load Balancing: Distributes incoming traffic across multiple servers so no single server is overwhelmed.
+2. Caching: Store frequently accessed data closer to the user to reduce server load.
+3. Auto-Scaling: Automatically add or remove servers based on traffic demand.
+4. Rate Limiting & Throttling: Control the number of requests a user or client can make in a given time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
