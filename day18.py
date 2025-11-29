@@ -1,0 +1,5 @@
+print(re.math(r'^\d', '5days'))
+print(re.math(r'.+', ''))
+print(re.math(r'\d{3}', '4abc12333'))
+print(re.math(r'\d{2,4}', '1abc'))
+print(re.math(r'\d{2,4}', '12345'))

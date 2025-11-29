@@ -1,0 +1,18 @@
+Q.What is front end
+
+A.It is a place where a user can interact with websites and applications where it 
+might be buttons, images, text, navigation menu in which we will be mainly using HTML,CSS,JavaScript
+
+Q.What is react and angular
+
+A.React is a library in javascript which is used for building user interface's using a component based architecture while angular 
+provide's a platform with set of tools, APIs and libraries for development
+
+Q.Difference in frame work and libreary
+
+A.Frame work offer's a structure and flow control. where it define's how thing's should be done where as libreary is used for 
+performing specific task's it does not dictated
+
+Q.what is needed in backend and which framework is needed to build a web applications
+
+A.
