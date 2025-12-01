@@ -1,0 +1,117 @@
+DATE:1/12/2025
+ 
+1Q.Difference between static method and class method:
+
+
+1. @classmethod:
+---------------------------------------------------
+Receives the class (cls) as the first argument
+
+A class method knows which class it belongs to.
+
+Use when:
+
+You need to access or modify class-level data
+
+You want to create alternative constructors (very common)
+
+Example:
+
+class Person:
+    species = "Human"   # class attribute
+
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def set_species(cls, new_species):
+        cls.species = new_species  # modifies class data
+
+
+Person.set_species("Homo Sapiens")
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. @staticmethod:
+-------------------------------------------------
+
+
+Receives NO automatic first argument
+
+No self, no cls.
+A static method is just a utility function placed inside a class for organization.
+
+Use when:
+
+You need a helper function related to the class
+
+But you don't need access to instance data or class data
+
+Example:
+
+class MathUtils:
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+MathUtils.add(5, 3)
+
+
+Example:
+
+class Example:
+
+    value = 0
+
+    @classmethod
+    def increment(cls):
+        cls.value += 1       # modifies class variable
+
+    @staticmethod
+    def greet():
+        return "Hello!"      # does not access class or instance
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2Q.What Should be the Class name?
+
+A class name should be a noun or noun phrase, because a class models an object or entity.
+
+class names do NOT follow grammar categories like “adjective,” “pronoun,” etc.
+Instead, you choose the class name based on what the class represents.
+
+*Class names should use Capitalized Words.
+
+*Each word starts with a capital letter.
+
+*No underscores.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+3Q.
+__delattr__  :It is called when we delete an attribute of an object(use: when we want to control or customize attribute deletion.)
+
+__class__    :It gives the class of object(use: To check or print Which class an object belongs to.)
+
+__dict__     :Returns a dictionary of all attributes(variables inside object.(To inspect or print object data)
+
+__dir__      :Returns a lit of all avilable attributes/methods of an object(To see whzt an object contains)
+
+__doc__      :Shows the document string of a class or function(to display help or description of class/function)
+
+__eq__       :Defines how equal(==) works for our object/(To compare two objects based on rules)
+
+__format__   :Controls how an object behaves when used in format() or f-strings(To customize printing formats)
+
+__getattribute__ :Called every time we Access an attribute(used to intercept attribute)
+
+__hash__     :defines the hash value of an object(If we want our object to work in set or as dictionary keys)
+
+
+This double underscore before and after is called a dunder (DUal UNDERSCORE).
+It means:
+
+“This is a special built-in feature of Python. Not a normal variable.”
+
+These are automatically created by Python for every module, class, object, and file.
+
