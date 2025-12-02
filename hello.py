@@ -1,1 +1,1 @@
-print("rama krishna is gay ")
+print("rama krishna ")
