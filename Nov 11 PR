@@ -1,0 +1,11 @@
+STACK-
+Stack is a linear data structure that follows LIFO (Last In First Out) Principle, the last element inserted is the first to be popped out. It means both insertion and deletion operations happen at one end only
+
+*New elements are always pushed on top
+*Removal (pop) also happens only from the top
+*Strictly Follows last IN first OUT principles
+
+QUEUE-
+A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order.
+
+*It follows the principle of "First in, First out" (FIFO), where the first element added to the queue is the first one to be removed.
