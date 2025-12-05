@@ -1,15 +1,16 @@
 📘 Daily Homework
-1) What are the web applications used in Python?
 
-Python provides frameworks for building web apps.
+1️⃣ What are the web applications used in Python?
 
-Popular Frameworks:
+Python provides several frameworks for building web applications:
 
-Django
+Popular Web Frameworks
 
-Flask
+Django – Full-stack framework for large applications
 
-FastAPI
+Flask – Lightweight framework for small/medium apps & APIs
+
+FastAPI – High-performance API development
 
 Pyramid
 
@@ -17,161 +18,289 @@ Bottle
 
 Web2Py
 
-Types of Applications:
+Types of Web Applications Built Using Python
 
-E-commerce
+E-commerce platforms
 
-Social media
+Social networking sites
 
 REST APIs
 
-Dashboards
+Data dashboards
 
-CMS
+Blog/CMS systems
 
 Authentication systems
 
-2) Git – 10 Common Commands
-git init
-git clone
-git status
-git add .
-git add <file>
-git commit -m "message"
-git push
-git pull
-git branch
-git checkout
+2️⃣ Git – 10 Common Commands
 
-3) What is GitHub?
 
-GitHub is a cloud platform to store Git repositories.
-It supports:
+<img width="344" height="335" alt="image" src="https://github.com/user-attachments/assets/f025cd4a-fbc7-4881-989e-7919d0a75f2d" />
 
-Collaboration
+
+3️⃣ What is GitHub?
+
+GitHub is a cloud-based platform used to store and manage Git repositories.
+It enables:
+
+Collaboration between developers
 
 Version control
 
-Pull requests
+Pull requests & code reviews
 
 Issue tracking
 
-CI/CD pipelines
+CI/CD & project management
 
-4) Difference Between Compiler and Interpreter
+4️⃣ Difference Between Compiler and Interpreter
+Feature	Compiler	Interpreter
+Translation	Entire code at once	Line-by-line
+Speed	Faster	Slower
+Error detection	After full compilation	Immediately
+Output	Creates executable	No executable file
+Languages	C, C++, Java	Python, JavaScript
 
-Compiler:
+5️⃣ What are HackerRank, Project Euler, and Boot.dev?
+HackerRank
 
-Converts entire code at once
+A coding practice and technical interview preparation platform with challenges in algorithms, data structures, SQL, and more.
 
-Faster execution
+Project Euler
 
-Errors appear after compilation
+A platform offering mathematical and logical programming challenges to develop problem-solving skills.
 
-Interpreter:
+Boot.dev
 
-Executes line-by-line
+An online learning platform focused on backend development, offering courses in Python, Go, databases, and computer science fundamentals.
 
-Slower
+6️⃣ What is TDD and BDD?
+TDD (Test-Driven Development)
 
-Errors appear immediately
+TDD is a development method where tests are written before the code.
 
-Examples:
+Cycle:
 
-Compiler → C, C++
+Write a failing test
 
-Interpreter → Python, JavaScript
+Write code to pass the test
 
-5) What are HackerRank, Project Euler, and Boot.dev?
+Refactor
 
-HackerRank: Coding & interview preparation
-Project Euler: Math + logic programming problems
-Boot.dev: Backend development learning platform
+Advantages:
 
-6) What is TDD and BDD?
+Fewer bugs
 
-TDD (Test-Driven Development):
-Tests → Code → Refactor
+Clean code
 
-BDD (Behavior-Driven Development):
-User behavior written in Given-When-Then format
+High test coverage
 
-7) Features of a Web Application
+BDD (Behavior-Driven Development)
 
-Authentication
+BDD focuses on the behavior expected by the user, written in simple language.
+
+Uses the Given–When–Then format.
+
+Advantages:
+
+Better communication between dev, QA, and business
+
+Requirements become clear
+
+Tests describe real user behavior
+
+7️⃣ What are the features of a web application?
+General Features
+
+User authentication (Login/Register)
 
 Database connectivity
 
-API communication
+Dynamic content
 
-Dynamic UI
+API interactions
 
-Security
+Security (SSL, hashing, sessions)
 
-Logging
+Responsive UI
 
-Responsiveness
+Error handling & logging
 
-Scalability
+Technical Features
 
-8) What is SQL?
+Client–server architecture
 
-SQL is a language to manage relational databases.
+Session management
 
-Example:
+CRUD operations
 
+Deployment & scalability
+
+8️⃣ What is SQL?
+
+SQL (Structured Query Language) is used to manage and interact with relational databases.
+
+SQL is used for:
+
+Creating databases/tables
+
+Inserting, updating, deleting data
+
+Querying data
+
+Joining tables
+
+Managing permissions
+
+Examples of SQL Commands
 SELECT * FROM users;
+INSERT INTO users VALUES (1, 'Yashwanth');
+UPDATE users SET name='Yash' WHERE id=1;
+DELETE FROM users WHERE id=1;
 
-9) Why use environment variables?
+9️⃣ Why do we use environment variables? How do they help?
 
-They store sensitive or environment-specific values outside code.
+Environment variables store configuration and sensitive information outside the source code.
 
-Examples:
+Why they are useful:
 
+Secure (no hardcoded secrets)
+
+Different values for dev, test, production
+
+Easy to manage and update
+
+Makes applications portable
+
+Examples
 SECRET_KEY=abc123
-DATABASE_URL=mysql://root@localhost/db
+DATABASE_URL=mysql://root:pass@localhost/db
 API_KEY=xyz789
 
-10) Compilation vs Interpretation
+1️⃣0️⃣ What is the difference between compilation and interpretation?
+Compilation
 
-(Already covered in Question 4)
+Converts the entire source code into machine code at once
 
-11) What is Web Scraping?
+Faster execution
 
-Automated extraction of website data.
+Errors shown only after compilation
 
-Libraries: BeautifulSoup, Scrapy, Selenium, Requests
+Examples: C, C++, Java
 
-12) ChatGPT vs Gemini vs Claude vs DeepSeek
-Model	Strength
-ChatGPT	Best coding & reasoning
-Gemini	Best search & multimodal
-Claude	Best writing & safety
-DeepSeek	Fast & efficient
-13) What is REST API?
+Interpretation
 
-REST APIs use HTTP methods (GET, POST, PUT, DELETE) for stateless communication using JSON/XML.
+Converts and executes code line-by-line
 
-14) What is an OS?
+Slower execution
 
-Operating System manages hardware and provides services.
+Errors shown immediately
 
-Examples: Windows, Linux, macOS, Android
+Examples: Python, JavaScript
 
-15) Features of Python
+1️⃣1️⃣ What is web scraping?
 
-Easy syntax
+Web scraping is the automated process of extracting data from websites.
 
-Interpreted
+Uses
+
+Data collection
+
+Market research
+
+Price monitoring
+
+Automation
+
+Python libraries
+
+BeautifulSoup
+
+Scrapy
+
+Selenium
+
+Requests
+
+1️⃣2️⃣ What is the difference between ChatGPT, Gemini, Claude, and DeepSeek?
+Model	Created By	Strengths
+ChatGPT	OpenAI	Great coding, reasoning, explanations
+Gemini	Google	Strong in search, multimodal tasks
+Claude	Anthropic	Best for writing, reasoning, safety
+DeepSeek	DeepSeek AI	Fast, efficient, cost-friendly
+
+1️⃣3️⃣ What is REST API?
+
+REST API (Representational State Transfer) is an architecture for building web services that use standard HTTP methods.
+
+Key concepts
+
+Stateless
+
+Uses GET, POST, PUT, DELETE
+
+Sends/receives JSON or XML
+
+Client–server separation
+
+1️⃣4️⃣ What is an OS?
+
+An Operating System (OS) is a system software that manages hardware and provides services for applications.
+
+Examples
+
+Windows
+
+Linux
+
+macOS
+
+Android
+
+iOS
+
+Functions
+
+Memory & process management
+
+File handling
+
+Device & driver management
+
+Security & user control
+
+1️⃣5️⃣ What are the features of Python?
+
+Easy to learn
+
+Interpreted & dynamically typed
+
+Large standard library
 
 Cross-platform
 
-Rich libraries
+Supports OOP & functional programming
 
-Supports OOP
+Huge community support
 
-Used in AI/ML, automation, web development
+Used in AI, ML, automation, web development, data science
 
-16) TDD & BDD
+1️⃣6️⃣ What is TDD & BDD?
+TDD (Test-Driven Development)
 
-(Same as Question 6)
+Write tests before writing code
+
+Cycle: Red → Green → Refactor
+
+Ensures high-quality, tested code
+
+BDD (Behavior-Driven Development)
+
+Focuses on user behavior
+
+Uses natural language (Given-When-Then)
+
+Improves communication between dev, QA, business teams
+
+
+make them some short no too short but some 
