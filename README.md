@@ -304,3 +304,141 @@ Improves communication between dev, QA, business teams
 
 
 make them some short no too short but some 
+
+
+1️⃣7️⃣ What is the difference between range() and list()?
+
+range():
+
+Generates a sequence of numbers
+
+Does NOT store all values in memory (memory-efficient)
+
+Mostly used in loops
+
+list():
+
+Stores all elements in memory
+
+Can contain mixed data types
+
+Used for data storage and manipulation
+
+Main difference:
+range() creates a sequence generator; list() stores actual values.
+
+1️⃣8️⃣ What is the difference between user variables and system variables?
+
+User Variables:
+
+Apply only to the current user
+
+Do not affect other users
+
+Used for personal configs
+
+System Variables:
+
+Apply to all users on the system
+
+Require admin access to modify
+
+Used for global settings (PATH, JAVA_HOME)
+
+1️⃣9️⃣ Why do we use environment variables?
+
+Environment variables store configuration/sensitive values outside the code.
+
+They help by:
+
+Keeping secrets secure (API keys, passwords)
+
+Allowing different settings for dev/test/prod
+
+Making apps portable
+
+Avoiding hardcoded credentials
+
+Examples:
+
+SECRET_KEY=abc123
+DATABASE_URL=mysql://root:pass@localhost/db
+API_KEY=xyz789
+
+2️⃣0️⃣ 10 CMD Commands
+
+1) dir           – list files/folders
+2) cd            – change directory
+3) mkdir         – create folder
+4) rmdir         – remove folder
+5) copy          – copy files
+6) move          – move files
+7) del           – delete file
+8) cls           – clear screen
+9) ipconfig      – show network configuration
+10) ping <host>  – test connection
+
+2️⃣1️⃣ Give an example of NOT code
+
+In Python, the not operator reverses a Boolean value.
+
+Examples:
+
+a = True
+print(not a)   # Output: False
+
+b = 0
+print(not b)   # Output: True
+
+
+Explanation:
+
+not True → False
+
+not False → True
+
+not 0 → True
+
+not non-zero number → False
+
+2️⃣2️⃣ Understand Python slicing (based on your notebook)
+
+Given:
+
+s = "Sampath"
+
+
+Here are the slice outputs:
+
+print(s[5])      # 't'
+print(s[1:7])    # 'ampath'
+print(s[1:5])    # 'ampa'
+print(s[:2])     # 'Sa'
+print(s[1:])     # 'ampath'
+
+
+Slicing rules:
+
+s[start:end] → characters from start to end-1
+
+s[:end] → from start to end-1
+
+s[start:] → from start to end
+
+2️⃣3️⃣ Write a code with string slicing
+
+Here’s a clean example:
+
+name = "Yashwanth Kasula"
+
+# First 5 characters
+print(name[:5])       # 'Yashw'
+
+# Last 6 characters
+print(name[-6:])      # 'Kasula'
+
+# Middle part
+print(name[3:10])     # 'hwanth '
+
+# Reverse the string
+print(name[::-1])     # 'slusaK htnawhsaY'
