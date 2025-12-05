@@ -1,121 +1,96 @@
-1️⃣ Web Applications in Python
+1) What are the web applications used in Python?
 
-Python provides frameworks for building web apps:
+Python provides frameworks for building web apps.
 
-Frameworks: Django, Flask, FastAPI, Pyramid, Bottle, Web2Py
-Types of Apps: E-commerce, social networks, REST APIs, dashboards, CMS, authentication systems
+Popular Frameworks: Django, Flask, FastAPI, Pyramid, Bottle, Web2Py
+Types of Applications: E-commerce, social media, REST APIs, dashboards, CMS, authentication systems
 
-
-2️⃣ Git – 10 Common Commands
+2) Git – 10 Common Commands
 
 git init, git clone, git status, git add ., git add <file>,
 git commit -m "", git push, git pull, git branch, git checkout
 
+3) What is GitHub?
 
-3️⃣ What is GitHub?
+GitHub is a cloud platform to store Git repositories.
+It supports collaboration, version control, pull requests, issue tracking, and CI/CD pipelines.
 
-GitHub is a cloud platform for hosting Git repositories.
-It supports collaboration, version control, pull requests, issue tracking, and CI/CD integration.
+4) Difference Between Compiler and Interpreter
 
+Compiler: Converts entire program at once, fast execution, errors shown after compilation.
 
-4️⃣ Compiler vs Interpreter
+Interpreter: Executes line-by-line, slower, errors shown immediately.
 
-Compiler: Converts full code at once, faster, errors after compilation
+Examples: Compiler → C, C++; Interpreter → Python, JavaScript
 
-Interpreter: Executes line-by-line, slower, errors shown immediately
+5) What are HackerRank, Project Euler, and Boot.dev?
 
-Examples: Compiler → C/C++, Interpreter → Python/JS
+HackerRank: Coding & interview preparation platform
 
+Project Euler: Math + logic programming challenges
 
-5️⃣ HackerRank, Project Euler, Boot.dev
+Boot.dev: Backend development learning platform (Python, Go, databases)
 
-HackerRank: Coding practice & interview prep
+6) What is TDD and BDD?
 
-Project Euler: Math-based logical programming problems
+TDD (Test-Driven Development): Write tests first → write code → refactor
+BDD (Behavior-Driven Development): Focuses on user behavior using Given-When-Then
 
-Boot.dev: Backend learning platform (Python, Go, databases)
+7) What are the features of a web application?
 
+Authentication, database connectivity, dynamic content, API integration, security, responsiveness, logging, scalability.
 
-6️⃣ TDD & BDD
+8) What is SQL?
 
-TDD: Write tests first → write code → refactor
+SQL is a language to manage relational databases.
 
-Ensures fewer bugs, cleaner code
-
-BDD: Focuses on user behavior using Given-When-Then
-
-Improves communication & clarity of requirements
-
-
-7️⃣ Features of a Web Application
-
-Authentication, database connectivity, API communication, dynamic UI, security, logging, responsiveness, and scalability.
-
-
-8️⃣ What is SQL?
-
-SQL is used to manage relational databases.
-
-Uses: Create tables, insert/update/delete data, queries, joins, permissions.
+Uses: Create tables, insert/update/delete data, queries, joins
 Example:
 
 SELECT * FROM users;
 
+9) Why do we use environment variables?
 
-9️⃣ Why Use Environment Variables?
+They store sensitive configuration outside code.
 
-They store sensitive configurations outside the code.
-
-Benefits: Secure, customizable for environments (dev/test/prod), portable.
+Benefits: Secure, environment-based settings, easy updates, portability
 Examples: SECRET_KEY, DATABASE_URL, API_KEY
 
+10) What is the difference between compilation and interpretation?
 
-1️⃣0️⃣ Compilation vs Interpretation
+(Already explained in Q4 — same concepts)
 
-Compiler: Converts full code at once, faster, errors after compilation
+11) What is web scraping?
 
-Interpreter: Executes line-by-line, slower, errors shown immediately
+Automated extraction of data from websites.
 
-Examples: Compiler → C/C++, Interpreter → Python/JS
+Uses: Research, analytics, price tracking
+Libraries: BeautifulSoup, Scrapy, Selenium, Requests
 
-
-1️⃣1️⃣ What is Web Scraping?
-
-Automated extraction of website data.
-
-Uses: Research, price tracking, automation
-Tools: BeautifulSoup, Scrapy, Selenium, Requests
-
-
-1️⃣2️⃣ ChatGPT vs Gemini vs Claude vs DeepSeek
-
+12) What is the difference between ChatGPT, Gemini, Claude, and DeepSeek?
 Model	Strength
 ChatGPT	Best coding & reasoning
-Gemini	Best search & multimodal
+Gemini	Best search & multimodal tasks
 Claude	Best writing & safety
 DeepSeek	Fast & cost-efficient
 
+13) What is REST API?
 
-1️⃣3️⃣ What is REST API?
+REST APIs use HTTP methods (GET, POST, PUT, DELETE) for stateless communication between client and server using JSON/XML.
 
-REST APIs use HTTP methods (GET/POST/PUT/DELETE) to enable stateless communication between client and server using JSON/XML.
+14) What is an OS?
 
-
-1️⃣4️⃣ What is an OS?
-
-Software that manages hardware and provides services for applications.
+An Operating System manages hardware and provides services to applications.
 
 Examples: Windows, Linux, macOS, Android
-Functions: Memory, process, file, device, and security management.
+Functions: Memory, process, file, device, and security management
 
+15) What are the features of Python?
 
-1️⃣5️⃣ Features of Python
+Simple syntax, interpreted, cross-platform, huge libraries, supports OOP, widely used in AI/ML, automation, and web development.
 
-Simple syntax, interpreted, cross-platform, large libraries, supports OOP, huge community, used in AI/ML, web dev, automation, data science.
+16) What is TDD & BDD?
 
+TDD: Tests first → code → refactor
 
-1️⃣6️⃣ TDD & BDD 
-
-TDD: Tests → Code → Refactor
-
-BDD: User-focused scenarios (Given-When-Then)
+BDD: User-focused scenarios written in natural language (Given-When-Then)
