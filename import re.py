@@ -16,7 +16,7 @@ print("-------------------------------------------------------------------------
 for m in re.finditer(r"\d", "a1b2c3"):
     print(m.group(), m.start())
 # finditer Returns an iterator of match objects (useful when you want positions of matches).
-print("---------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------")
 
 # Searches the entire string and returns the first match found.
 print(re.search(r"\d+", "Room 45 is on floor 6"))
