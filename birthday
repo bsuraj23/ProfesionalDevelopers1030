@@ -1,0 +1,6 @@
+from datetime import datetime
+birthday_input = input("Enter your birthday (YYYY-MM-DD): ")
+birthday = datetime.strptime(birthday_input, "%Y-%m-%d")
+today = datetime.now()
+days_passed = (today - birthday).days
+print(f"Days since your birthday: {days_passed}")

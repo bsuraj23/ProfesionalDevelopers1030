@@ -1,0 +1,6 @@
+fib = [1, 2]
+
+while len(fib) < 10:
+    fib.append(fib[-1] + fib[-2])
+
+print(fib)

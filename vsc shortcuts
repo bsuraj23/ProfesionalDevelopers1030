@@ -1,0 +1,16 @@
+VSC Shortcuts keys:
+1.Ctrl+C: Copy selected text or the current line if no text is selected.
+2.Ctrl+V: Paste copied content.
+3.Ctrl+X: Cut selected text or the current line if no text is selected.
+4.Ctrl+A: Select all content in the file.
+5.Ctrl+Z: Undo the last action.
+6.Ctrl+Shift+Z: or Ctrl+Y (Windows): Redo an action.
+7.Ctrl+Shift+P: or F1: Show Command Palette (access to all commands).
+8.Ctrl+P: Quick Open, Go to File.
+9.Ctrl+,: Open User Settings.
+10.Ctrl+K Ctrl+S: Open Keyboard Shortcuts editor.
+11.Ctrl+/ (Windows): or Cmd+/ (Mac): Comment out the current line or selected lines.
+12.Ctrl+Shift+M: Show Errors and Warnings.
+13.F8: or Shift+F8: Navigate through errors/warnings.
+14.Ctrl+G: Go to a specific line number.
+15.Ctrl+\\: Split editor.
