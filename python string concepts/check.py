@@ -38,12 +38,10 @@ age = 22
 height = 5.7
 print("my name is {} and my age is {} and height is {}".format(name, age, height))
 print("my name is {N} and my age is {A} and height is {H}".format(N=name, A=age, H=height))
-print(f"my name is {name}, my age is {age}, height is {hight}")
+print(f"my name is {name}, my age is {age}, height is {height}")
 print("")
 
-Number = 1224.567889
-print("format number is {:.2f}".formaformat number is {}".format(Number))
-=======
+      
 s = "Darksiders2"
 print("dar" in s)
 print("rs2" in s)
@@ -89,9 +87,27 @@ print("")
 Number = 1224.567889
 print("format number is {:.2f}".format(Number))
 print("format number is {}".format(Number))
->>>>>>> 6d414cc (new code concepts updated)
-print("format number is {:.8f}".format(Number))lue is",c)
-print(type(c))
+print("format number is {:.8f}".format(Number))
 
+#type conversion
+
+print("ptython do not have lONG like Java ")
+print("Understand + in print and using comma ")
+a = 90
+b = 90.78787
+c = "a"
+d = "IamABigWord"
+boolean = True
+print("boolean value is  ", boolean)
+
+print("a value is",a)
+print(type(a))
+print("b value is",b)
+print(type(b))
+print("c value is",c)
+print(type(c))
 print("d value is",d)
 print(type(d))
+print("boolean value is",boolean)
+print(type(boolean))
+
