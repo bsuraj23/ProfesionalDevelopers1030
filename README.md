@@ -1,0 +1,9 @@
+=> git status (checks the status of the repository)
+=> git clone <hhtps url of repository>
+=> ls (list)
+=> cd <folder name> (change directory)
+=> git branch --all (lists all the branches in the repo)
+=> git checkout <branch_name> (switch to a specific branch)
+=> git add . (add all modified files)
+=> git commit -m "<comment" (commit changes with a message)
+=> git push
