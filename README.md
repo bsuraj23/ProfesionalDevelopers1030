@@ -569,7 +569,7 @@ git merge <branch-name>
 
 11. View commit history
 
-git log
+git log.
 
 
 12. Remove file from Git tracking
