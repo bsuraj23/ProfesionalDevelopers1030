@@ -1181,3 +1181,121 @@ Deletes an attribute from an object.
 Example:
 
 delattr(obj, 'name')
+
+
+81. Instance Variable
+
+A variable that belongs to an object. Each object gets its own copy.
+Declared inside __init__() using self.
+
+82. Static (Class) Variable
+
+A variable that belongs to the class and is shared by all objects.
+Declared inside the class but outside methods.
+
+83. Instance Method
+
+A method that uses self and can access both instance and static variables.
+
+84. Static Method
+
+A method that does not use self.
+Declared using @staticmethod and used for utility purposes.
+
+85. Public Variable
+
+A variable that can be accessed from anywhere.
+Declared normally without underscores.
+
+86. Protected Variable
+
+Declared using a single underscore _var.
+Accessible inside the class and its child classes.
+Used mainly in inheritance.
+
+87. Private Variable
+
+Declared using double underscore __var.
+Accessible only inside the class due to name mangling.
+
+88. Name Mangling
+
+Python internally changes __var to _ClassName__var to prevent direct access from outside the class.
+
+89. How to Create a Private Variable
+
+By declaring it with double underscore inside a class:
+
+self.__balance
+
+90. Single Inheritance
+
+A class inherits from only one parent class.
+
+91. Multilevel Inheritance
+
+A class inherits from a child class, forming a chain (A → B → C).
+
+92. Multiple Inheritance
+
+A class inherits from more than one parent class.
+Python supports multiple inheritance.
+
+93. Hierarchical Inheritance
+
+Multiple child classes inherit from a single parent class.
+
+94. Method Overloading in Python
+
+Python does not support method overloading directly.
+Achieved using default arguments or variable arguments.
+
+95. Method Overriding
+
+A child class provides its own implementation of a parent class method.
+
+96. Recursion
+
+A function calling itself to solve a problem.
+
+97. Non-Recursive Solution
+
+Using loops instead of recursion to avoid stack overhead.
+
+98. Static Variable Memory
+
+Only one memory location is created for static variables.
+
+99. Instance Variable Memory
+
+Memory is created separately for every object.
+
+100. Use of Protected Variables
+
+Used when data should be shared with child classes but hidden from external access.
+
+101. Use of Private Variables
+
+Used to hide sensitive data and prevent unauthorized access.
+
+102. Accessing Private Variables Outside Class
+
+Possible using name-mangled form:
+
+object._ClassName__var
+
+103. Why Static Methods Are Used
+
+When logic does not depend on object state.
+
+104. Why Python Uses Conventions for Access Control
+
+Python trusts the developer instead of enforcing strict access rules.
+
+105. Importance of GitHub Projects
+
+Shows practical implementation, coding style, and problem-solving ability.
+
+106. Explaining Projects in Interview
+
+Focus on logic, design choices, challenges, and solutions—not just code.
