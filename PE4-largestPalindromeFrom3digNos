@@ -1,0 +1,48 @@
+'''
+A palindromic number reads the same both ways. 
+The largest palindrome made from the product of two 2-digit numbers is 9009 =91×99.
+Find the largest palindrome made from the product of two 3-digit numbers.
+'''
+
+# we need 2 three digit nos.(x,y) s.t when x*y forms a palindrome
+# so x,y should range from 100 to 1000 so a for loop for that
+# palindrome logic = x*y[::-1]==original  
+
+palin=0
+for i in range(100,1000):
+    for j in range(100,1000):
+        n=i*j
+        if str(n)==str(n)[::-1]:    #integer cannot be sliced so convert it to a string
+            if n>palin:
+                palin=n
+print("largest palindrome =", palin)
+
+
+'''
+Explanation:
+1. 2 3-digit integers i and j , specify the range (100,1000)
+2. i*j and store it in a variable n.
+3. if i*j = rev(i*j) i.e if reverse of n = i*j
+4. check if n>0
+    (We want the largest palindrome, not just any palindrome.
+    As we loop through all products, we may find many palindromes.
+    We only want to save the biggest one found so far.)
+
+ EX:
+       Start: palin = 0
+
+    n = 121 → bigger than 0 → palin = 121
+    n = 252 → bigger than 121 → palin = 252
+    n = 323 → bigger → palin = 323
+    n = 99 → NOT bigger → ignore
+    n = 545 → bigger → palin = 545
+    n = 484 → NOT bigger → ignore
+    n = 202 → NOT bigger → ignore
+    Final answer: 545
+
+palin keeps track of the current biggest palindrome.
+
+5. print palin as it contains the biggest palindrome
+
+
+'''
